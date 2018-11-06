@@ -7,6 +7,7 @@
 #include<map>
 using namespace std;
 int main(){
+	int x;
 	int t; cin>>t;
 	while(t--){
 		long long int n,k,m=1000000007,start=-1,check,not_equal=0,ans=0,p=0,rem,val,end; cin>>n>>k;
